@@ -1,0 +1,22 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    volumes:
+      - ./data:/app/data:ro          # licensed OS data, mounted not baked
+      - ./outputs:/app/outputs
+    environment:
+      SIDEWALK_DATA_DIR: /app/data
+      SIDEWALK_OUTPUT_DIR: /app/outputs
+
+  pipeline:
+    build: .
+    profiles: ["batch"]              # docker compose --profile batch run pipeline
+    volumes:
+      - ./data:/app/data:ro
+      - ./outputs:/app/outputs
+    command: >
+      sh -c "python scripts/run_all.py &&
+             python scripts/run_validation.py &&
+             python scripts/make_figures.py &&
+             python scripts/build_map.py"
