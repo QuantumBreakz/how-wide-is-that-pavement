@@ -1,0 +1,20 @@
+{
+  "os_carriageway": {
+    "n_links": 100,
+    "median_residual_m": -0.1925523526523052,
+    "mae_m": 0.7514792360707765,
+    "rmse_m": 1.5176767304801035,
+    "p90_abs_residual_m": 1.7121311057013706,
+    "pct_within_1m": 79.0,
+    "correlation": 0.9094698800765991
+  },
+  "areal": {
+    "n_segments": 315,
+    "median_coverage": 0.9989064435857306,
+    "mean_coverage": 0.9691108325867877,
+    "pct_above_90": 90.7936507936508,
+    "pct_above_95": 87.93650793650794,
+    "pct_below_80": 4.761904761904762
+  },
+  "sensitivity_max_abs_delta_m": 0.09762823502394902
+}

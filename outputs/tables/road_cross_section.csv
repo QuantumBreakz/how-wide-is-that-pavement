@@ -1,0 +1,11 @@
+road,n_cross_sections,left_footway_m,left_footway_own_m,carriageway_m,right_footway_m,right_footway_own_m,total_street_width_m,total_p10_m,total_p90_m,pct_with_median_strip,median_strip_m_where_present,frontage_to_frontage_m,pct_closure_good
+Brick Lane,720.0,2.53,2.5,5.48,2.43,2.45,10.53,8.84,12.74,0.0,,10.72,63.9
+Brushfield Street,278.0,8.71,9.24,7.75,2.7,2.66,18.61,17.32,20.13,0.0,,18.67,65.1
+Commercial Street,749.0,3.33,3.37,10.62,3.39,3.41,19.65,15.59,22.72,4.3,1.36,19.89,56.7
+Fournier Street,169.0,2.25,2.25,5.09,2.6,2.62,9.75,8.68,13.91,0.0,,10.22,26.0
+Gunthorpe Street,141.0,1.01,1.06,3.51,0.74,0.74,5.75,3.99,9.44,0.0,,9.36,48.2
+Leman Street,191.0,4.66,4.52,7.77,5.48,5.67,19.28,15.7,23.65,0.0,,19.66,34.0
+Scarborough Street,126.0,4.46,4.46,4.72,3.82,3.82,13.04,12.58,13.8,0.0,,16.56,13.5
+St Mark Street,179.0,3.84,3.83,5.31,2.89,2.92,12.31,7.81,13.59,0.0,,16.4,24.0
+Wentworth Street,331.0,2.49,2.49,7.15,3.18,3.2,12.98,11.96,15.9,0.0,,13.23,66.8
+Whitechapel High Street,161.0,3.85,4.06,20.03,3.95,3.84,30.29,21.28,38.15,19.3,2.84,28.22,16.1

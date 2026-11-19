@@ -1,0 +1,30 @@
+{
+  "generated": "2026-09-16T20:07:22.845692+00:00",
+  "roads": [
+    "Whitechapel High Street",
+    "Commercial Street",
+    "Brushfield Street",
+    "Brick Lane",
+    "Scarborough Street",
+    "St Mark Street",
+    "Gunthorpe Street",
+    "Leman Street",
+    "Wentworth Street",
+    "Fournier Street"
+  ],
+  "crs": "EPSG:27700",
+  "sample_spacing_m": 1.0,
+  "ensemble_half_window_m": 2.0,
+  "fan_half_angle_deg": 30.0,
+  "kerb_fit_radius_m": 4.0,
+  "kerb_corner_tol_m": 0.1,
+  "min_segment_len_m": 10.0,
+  "min_mean_shift_m": 0.25,
+  "sigma_survey_m": 0.15,
+  "closure_good_m": 0.2,
+  "closure_investigate_m": 0.5,
+  "n_samples": 7908,
+  "n_segments": 321,
+  "total_axis_length_m": 3946.481833674566,
+  "runtime_s": 95.0
+}

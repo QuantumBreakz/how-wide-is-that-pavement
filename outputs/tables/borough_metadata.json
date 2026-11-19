@@ -1,0 +1,10 @@
+{
+  "streets_attempted": 84,
+  "streets_measured": 84,
+  "failed": [],
+  "n_failed": 0,
+  "segments": 1286,
+  "measured_length_km": 29.74,
+  "lsoas_with_data": 13,
+  "runtime_s": 72.8
+}
